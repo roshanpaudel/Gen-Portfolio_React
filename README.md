@@ -32,3 +32,95 @@ This React-based site uses Vite for blazing-fast builds and development, and Boo
 
 ## Getting Started
 
+# Running the Project Locally
+
+Follow these steps to set up and run the project on your local machine:
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/roshanpaudel/react-portfolio.git
+```
+
+## 2. Navigate to the Project Directory
+
+```bash
+cd react-portfolio
+```
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+## 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+## 5. Open Your Browser
+
+Visit: [http://localhost:5173](http://localhost:5173)
+
+---
+
+# File Structure
+
+```
+react-portfolio/
+├── public/
+│   └── assets/
+│       ├── GlideShift.JPG
+│       ├── HikeCo.JPG
+│       └── Roshan.png
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles/
+│       └── custom.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+# Customization
+
+- **Text & Personal Info:** Update component files in `src/components/`.
+- **Styling:** Modify or override Bootstrap classes in `custom.css`.
+- **Assets:** Replace images in `public/assets/`.
+- **Projects:** Add project cards in `Projects.jsx` or pull from dynamic data.
+- **Theme:** Customize Bootstrap variables or CSS to change theme colors.
+
+---
+
+# Future Improvements
+
+- Backend integration for the contact form
+- Project filtering by tech stack or tags
+- Animated transitions using libraries like Framer Motion
+- Add a blog or articles section
+- Enhance SEO and accessibility
+
+---
+
+# Author
+
+**Roshan Paudel**
+
+---
+
+# License
+
+This project is open-source. Fonts, icons, and other assets used belong to their respective creators.
