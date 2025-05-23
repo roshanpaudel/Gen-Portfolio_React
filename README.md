@@ -37,3 +37,77 @@ To run the project locally:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/roshanpaudel/react-portfolio.git
+   ```
+Navigate to the project directory
+
+bash
+Copy
+Edit
+cd react-portfolio
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the development server
+
+bash
+Copy
+Edit
+npm run dev
+Open your browser and go to http://localhost:5173
+
+File Structure
+css
+Copy
+Edit
+react-portfolio/
+├── public/
+│   └── assets/
+│       ├── GlideShift.JPG
+│       ├── HikeCo.JPG
+│       └── Roshan.png
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles/
+│       └── custom.css
+├── index.html
+├── package.json
+└── vite.config.js
+Customization
+Update text and personal info in individual component files in src/components/
+
+Modify Bootstrap classes or override styles in custom.css
+
+Replace assets in the public/assets/ folder
+
+Add more projects to the Projects.jsx component as cards or dynamic data
+
+Adjust theme colors using Bootstrap variables or CSS overrides
+
+Future Improvements
+Backend integration for the contact form
+
+Add project filters by tech stack or tags
+
+Improve transitions with animation libraries
+
+Add blog or article section
+
+SEO and accessibility enhancements
+
+Author
+Roshan Paudel
+
+License
+This project is open-source. Fonts, icons, and other assets used belong to their respective creators.
