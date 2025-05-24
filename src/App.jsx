@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import glideShift from "./assets/glideShift.jpg";
+import hikeCo from "./assets/HikeCo.jpg";
+import roshan from "./assets/Roshan.jpg";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -65,7 +68,7 @@ function App() {
                 </a>
               </div>
               <div className="image flex">
-                <img src="assets/Roshan.png" alt="Roshan" />
+                <img src={roshan} alt="Roshan" />
               </div>
             </div>
           </section>
@@ -133,7 +136,7 @@ function App() {
             </div>
             <div className="grid my-projects">
               <div className="projects-card">
-                <img src="assets/GlideShift.JPG" alt="Project 1" />
+                <img src={glideShift} alt="Project 1" />
                 <div className="tech-link">
                   <a href="#">
                     <i className="fa-brands fa-github"></i>
@@ -148,7 +151,7 @@ function App() {
                 </div>
               </div>
               <div className="projects-card">
-                <img src="assets/HikeCo.JPG" alt="Project 1" />
+                <img src={hikeCo} alt="Project 1" />
                 <div className="tech-link">
                   <a href="#">
                     <i className="fa-brands fa-github"></i>
@@ -174,7 +177,7 @@ function App() {
 
           <div className="about-me flex container">
             <div className="my-photo">
-              <img src="assets/Roshan.png" alt="My photo" />
+              <img src={Roshan} alt="My photo" />
             </div>
             <div className="my-details flex">
               <h1>Roshan Paudel</h1>
