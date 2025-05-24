@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import glideShift from "./assets/glideShift.jpg";
 import hikeCo from "./assets/HikeCo.jpg";
-import roshan from "./assets/Roshan.jpg";
+import roshan from "./assets/Roshan.png";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -177,7 +177,7 @@ function App() {
 
           <div className="about-me flex container">
             <div className="my-photo">
-              <img src={Roshan} alt="My photo" />
+              <img src={roshan} alt="My photo" />
             </div>
             <div className="my-details flex">
               <h1>Roshan Paudel</h1>
