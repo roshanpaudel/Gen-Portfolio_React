@@ -7,6 +7,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,7 +40,7 @@ function App() {
 
         <Contact />
         {/* <!-- footer  --> */}
-
+        <Footer />
         {/* <!-- go UP --> */}
         <div className="go-up">
           <a className="flex-center" href="#home">

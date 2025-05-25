@@ -1,12 +1,11 @@
 import React from "react";
+import { Title } from "./Title";
 
 export const Skills = () => {
   return (
     <>
       <section id="skills">
-        <div className="title-header flex skills-section">
-          <h2>Skills</h2>
-        </div>
+        <Title title={"Skills"} />
         <div className="skill-icons flex-center container">
           <div className="icon-text">
             <i className="fa-brands fa-html5"></i>

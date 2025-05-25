@@ -1,12 +1,11 @@
 import React from "react";
+import { Title } from "./Title";
 
 export const Contact = () => {
   return (
     <>
       <div className="contact flex-center" id="contact">
-        <div className="title-header contact-title">
-          <h2>Contact</h2>
-        </div>
+        <Title title={"Contact me"} />
         <div className="contact-links">
           <i className="fa-brands fa-github"></i>
           <i className="fa-brands fa-linkedin"></i>

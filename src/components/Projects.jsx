@@ -1,14 +1,13 @@
 import React from "react";
 import glideShift from "../assets/glideShift.jpg";
 import hikeCo from "../assets/HikeCo.jpg";
+import { Title } from "./Title";
 
 export const Projects = () => {
   return (
     <>
       <div className="projects container" id="projects">
-        <div className="title-header flex">
-          <h2>My Projects</h2>
-        </div>
+        <Title title={"My Projects"} />
         <div className="grid my-projects">
           <div className="projects-card">
             <img src={glideShift} alt="Project 1" />

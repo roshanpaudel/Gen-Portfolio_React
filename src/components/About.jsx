@@ -1,13 +1,12 @@
 import React from "react";
 import roshan from "../assets/Roshan.png";
+import { Title } from "./Title";
 
 export const About = () => {
   return (
     <>
       <div className="about-container" id="about">
-        <div className="title-header about-title flex">
-          <h2>About me</h2>
-        </div>
+        <Title title={"About me"} />
 
         <div className="about-me flex container">
           <div className="my-photo">
