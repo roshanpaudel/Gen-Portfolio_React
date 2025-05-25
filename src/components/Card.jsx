@@ -1,5 +1,4 @@
 import React from "react";
-import glideShift from "../assets/glideShift.jpg";
 
 export const Card = ({ image, github, url, title, description }) => {
   return (
