@@ -3,6 +3,7 @@ import "./App.css";
 import glideShift from "./assets/glideShift.jpg";
 import hikeCo from "./assets/HikeCo.jpg";
 import roshan from "./assets/Roshan.png";
+import { NavBar } from "./components/NavBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,39 +17,8 @@ function App() {
           <i className="fa-solid fa-circle-half-stroke"></i>
         </label>
         {/* <!-- navbar --> */}
-        <div className="navbar">
-          <div className="navigation flex-center container">
-            <div className="nav-title flex-center">
-              <p className="name">Roshan</p>
-              <p className="slash">|</p>
-              <p className="job-title">Full Stack Developer</p>
-            </div>
-
-            <label htmlFor="hamburgerMenu">
-              <i className="fa-solid fa-bars"></i>
-            </label>
-            <input type="checkbox" name="" id="hamburgerMenu" />
-            <div className="nav-link">
-              <ul>
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#skills">Skills</a>
-                </li>
-                <li>
-                  <a href="#projects">Projects</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <NavBar/>
+       
         <div className="page-container">
           {/* <!-- hero  --> */}
           <section id="home">
