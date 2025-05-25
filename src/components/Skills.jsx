@@ -1,0 +1,35 @@
+import React from "react";
+
+export const Skills = () => {
+  return (
+    <>
+      <section id="skills">
+        <div className="title-header flex skills-section">
+          <h2>Skills</h2>
+        </div>
+        <div className="skill-icons flex-center container">
+          <div className="icon-text">
+            <i className="fa-brands fa-html5"></i>
+            <p>HTML</p>
+          </div>
+          <div className="icon-text flex-center">
+            <i className="fa-brands fa-css"></i>
+            <p>CSS</p>
+          </div>
+          <div className="icon-text flex-center">
+            <i className="fa-brands fa-js"></i>
+            <p>Javascript</p>
+          </div>
+          <div className="icon-text flex-center">
+            <i className="fa-brands fa-github"></i>
+            <p>Github</p>
+          </div>
+          <div className="icon-text flex-center">
+            <i className="fa-brands fa-figma"></i>
+            <p>fa-figma</p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};

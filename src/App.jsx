@@ -1,10 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import glideShift from "./assets/glideShift.jpg";
-import hikeCo from "./assets/HikeCo.jpg";
+
 import roshan from "./assets/Roshan.png";
 import { NavBar } from "./components/NavBar";
 import { Hero } from "./components/Hero";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,72 +25,10 @@ function App() {
           <Hero />
 
           {/* <!-- skills  --> */}
-          <section id="skills">
-            <div className="title-header flex skills-section">
-              <h2>Skills</h2>
-            </div>
-            <div className="skill-icons flex-center container">
-              <div className="icon-text">
-                <i className="fa-brands fa-html5"></i>
-                <p>HTML</p>
-              </div>
-              <div className="icon-text flex-center">
-                <i className="fa-brands fa-css"></i>
-                <p>CSS</p>
-              </div>
-              <div className="icon-text flex-center">
-                <i className="fa-brands fa-js"></i>
-                <p>Javascript</p>
-              </div>
-              <div className="icon-text flex-center">
-                <i className="fa-brands fa-github"></i>
-                <p>Github</p>
-              </div>
-              <div className="icon-text flex-center">
-                <i className="fa-brands fa-figma"></i>
-                <p>fa-figma</p>
-              </div>
-            </div>
-          </section>
+          <Skills />
 
           {/* <!-- my-projects  --> */}
-          <div className="projects container" id="projects">
-            <div className="title-header flex">
-              <h2>My Projects</h2>
-            </div>
-            <div className="grid my-projects">
-              <div className="projects-card">
-                <img src={glideShift} alt="Project 1" />
-                <div className="tech-link">
-                  <a href="#">
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <div className="project-info">
-                  <h3>GlideShift HTML Template</h3>
-                  <p>Techstack: HTML5, CSS</p>
-                </div>
-              </div>
-              <div className="projects-card">
-                <img src={hikeCo} alt="Project 1" />
-                <div className="tech-link">
-                  <a href="#">
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <div className="project-info">
-                  <h3>GlideShift HTML Template</h3>
-                  <p>Techstack: HTML5, CSS</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Projects />
         </div>
 
         {/* <!-- about-me  --> */}
