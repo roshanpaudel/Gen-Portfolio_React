@@ -1,5 +1,5 @@
 import React from "react";
-import glideShift from "../assets/glideShift.jpg";
+import glideShift from "../assets/GlideShift.jpg";
 import hikeCo from "../assets/HikeCo.jpg";
 import { Title } from "./Title";
 import { Card } from "./Card";
