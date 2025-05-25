@@ -10,7 +10,13 @@ export const Projects = () => {
       <div className="projects container" id="projects">
         <Title title="My Projects" />
         <div className="grid my-projects">
-          <Card />
+          <Card
+            image={glideShift}
+            github="https://github.com/roshanpaudel"
+            url="https://roshanpaudel.github.io/GLIDEshift/"
+            title="GlideShift HTML Template"
+            description="Techstack: HTML5, CSS"
+          />
           <div className="projects-card">
             <img src={hikeCo} alt="Project 1" />
             <div className="tech-link">

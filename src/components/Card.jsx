@@ -1,22 +1,22 @@
 import React from "react";
 import glideShift from "../assets/glideShift.jpg";
 
-export const Card = () => {
+export const Card = ({ image, github, url, title, description }) => {
   return (
     <>
       <div className="projects-card">
-        <img src={glideShift} alt="Project 1" />
+        <img src={image} alt="Project 1" />
         <div className="tech-link">
-          <a href="#">
+          <a href={github}>
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="#">
+          <a href={url}>
             <i className="fa-brands fa-chrome"></i>
           </a>
         </div>
         <div className="project-info">
-          <h3>GlideShift HTML Template</h3>
-          <p>Techstack: HTML5, CSS</p>
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
       </div>
     </>
