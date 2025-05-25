@@ -5,33 +5,30 @@ import { Title } from "./Title";
 import { Card } from "./Card";
 
 export const Projects = () => {
+  const projects = [
+    {
+      image: glideShift,
+      github: "https://github.com/roshanpaudel",
+      url: "https://roshanpaudel.github.io/GLIDEshift/",
+      title: "GlideShift HTML Template",
+      description: "Techstack: HTML5, CSS",
+    },
+    {
+      image: hikeCo,
+      github: "https://github.com/roshanpaudel",
+      url: "https://roshanpaudel.github.io/GLIDEshift/",
+      title: "HikeCo HTML Template",
+      description: "Techstack: HTML5, CSS",
+    },
+  ];
   return (
     <>
       <div className="projects container" id="projects">
         <Title title="My Projects" />
         <div className="grid my-projects">
-          <Card
-            image={glideShift}
-            github="https://github.com/roshanpaudel"
-            url="https://roshanpaudel.github.io/GLIDEshift/"
-            title="GlideShift HTML Template"
-            description="Techstack: HTML5, CSS"
-          />
-          <div className="projects-card">
-            <img src={hikeCo} alt="Project 1" />
-            <div className="tech-link">
-              <a href="#">
-                <i className="fa-brands fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fa-brands fa-chrome"></i>
-              </a>
-            </div>
-            <div className="project-info">
-              <h3>GlideShift HTML Template</h3>
-              <p>Techstack: HTML5, CSS</p>
-            </div>
-          </div>
+          {projects.map((projects, i) => (
+            <Card key={i} {...projects} />
+          ))}
         </div>
       </div>
     </>
