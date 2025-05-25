@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <>
       <div className="about-container" id="about">
-        <Title title={"About me"} />
+        <Title title="About me" />
 
         <div className="about-me flex container">
           <div className="my-photo">

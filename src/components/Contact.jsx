@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <>
       <div className="contact flex-center" id="contact">
-        <Title title={"Contact me"} />
+        <Title title="Contact me" />
         <div className="contact-links">
           <i className="fa-brands fa-github"></i>
           <i className="fa-brands fa-linkedin"></i>

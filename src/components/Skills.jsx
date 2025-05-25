@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <>
       <section id="skills">
-        <Title title={"Skills"} />
+        <Title title="Skills" />
         <div className="skill-icons flex-center container">
           <div className="icon-text">
             <i className="fa-brands fa-html5"></i>
