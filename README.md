@@ -1,126 +1,58 @@
-# Roshan Paudel - Portfolio Website (React + Vite)
+# 🌐 Roshan Paudel – Portfolio Website (React + Vite)
 
-This repository contains the code for my personal portfolio website, developed using **React.js** and **Vite**, styled with **Bootstrap**. It showcases my skills, projects, and professional profile as a Full Stack Developer.
+This is my personal portfolio website built using **React.js**, **Vite**, and **Bootstrap**. It highlights my work, skills, and background as a Full Stack Developer.
 
-## Overview
+## 🚀 Features
 
-This React-based site uses Vite for blazing-fast builds and development, and Bootstrap for responsive, mobile-first styling. It includes dynamic components, routing, dark mode, and a polished UI.
+- Responsive design with **Bootstrap 5**
+- **Dark mode** toggle
+- **React Router** for smooth navigation
+- Downloadable CV, project cards, contact form
+- Clean UI with modular components
 
-## Features
+## 🛠️ Tech Stack
 
-- **Modern React Architecture:** Modular, component-based structure.
-- **Responsive Design with Bootstrap:** Fully optimized for various screen sizes.
-- **Dark Mode Toggle:** Users can switch between light and dark themes.
-- **React Router:** Smooth navigation between sections.
-- **Hero Section:** Personal intro with CV download button.
-- **Skills Section:** Skills displayed using icons and tooltips.
-- **Projects Section:** Clickable cards with images, tech stacks, and links.
-- **About Me Section:** Personal background and interests.
-- **Contact Section:** Includes contact links and a working email form.
-- **Sticky Footer & "Go Up" Button**
-- **Mobile Navigation:** Hamburger menu collapses on small screens.
+- React.js, Vite  
+- Bootstrap 5  
+- React Router DOM  
+- Font Awesome, Google Fonts  
+- EmailJS (for contact form)
 
-## Technologies Used
-
-- **React.js** – JavaScript library for building user interfaces
-- **Vite** – Fast and optimized build tool
-- **Bootstrap 5** – CSS framework for responsive design
-- **React Router DOM** – Routing and page transitions
-- **Font Awesome** – Icons
-- **Google Fonts** – Custom typography
-- **EmailJS** (optional) – Email handling via contact form
-
-## Getting Started
-
-# Running the Project Locally
-
-Follow these steps to set up and run the project on your local machine:
-
-## 1. Clone the Repository
+## 📦 Quick Start
 
 ```bash
 git clone https://github.com/roshanpaudel/react-portfolio.git
-```
-
-## 2. Navigate to the Project Directory
-
-```bash
 cd react-portfolio
-```
-
-## 3. Install Dependencies
-
-```bash
 npm install
-```
-
-## 4. Start the Development Server
-
-```bash
 npm run dev
 ```
 
-## 5. Open Your Browser
-
 Visit: [http://localhost:5173](http://localhost:5173)
 
----
-
-# File Structure
+## 📁 Structure Overview
 
 ```
-react-portfolio/
-├── public/
-│   └── assets/
-│       ├── GlideShift.JPG
-│       ├── HikeCo.JPG
-│       └── Roshan.png
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── styles/
-│       └── custom.css
-├── index.html
-├── package.json
-└── vite.config.js
+src/
+├── components/ (Navbar, Hero, Skills, Projects, About, Contact, Footer)
+├── styles/ (custom.css)
+├── App.jsx, main.jsx
+public/assets/ (Images)
 ```
 
----
+## ✏️ Customize
 
-# Customization
+- Edit content in `src/components/`
+- Update styles in `styles/custom.css`
+- Replace assets in `public/assets/`
 
-- **Text & Personal Info:** Update component files in `src/components/`.
-- **Styling:** Modify or override Bootstrap classes in `custom.css`.
-- **Assets:** Replace images in `public/assets/`.
-- **Projects:** Add project cards in `Projects.jsx` or pull from dynamic data.
-- **Theme:** Customize Bootstrap variables or CSS to change theme colors.
+## 🔮 Roadmap
 
----
-
-# Future Improvements
-
-- Backend integration for the contact form
-- Project filtering by tech stack or tags
-- Animated transitions using libraries like Framer Motion
-- Add a blog or articles section
-- Enhance SEO and accessibility
+- Contact form backend
+- Project filtering
+- Blog section
+- SEO & accessibility improvements
 
 ---
 
-# Author
-
-**Roshan Paudel**
-
----
-
-# License
-
-This project is open-source. Fonts, icons, and other assets used belong to their respective creators.
+👨‍💻 **Author:** Roshan Paudel  
+📄 **License:** Open-source. External assets belong to their respective owners.
