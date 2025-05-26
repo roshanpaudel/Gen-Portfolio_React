@@ -15,10 +15,22 @@ export const About = () => {
           <div className="my-details flex">
             <h1>Roshan Paudel</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
-              harum voluptate numquam autem cupiditate maiores dolor ducimus,
-              deserunt ipsa consequatur quasi fugit dolore ab pariatur impedit
-              minima doloribus laboriosam neque.
+              I focus on developing efficient and user-friendly web
+              applications, with a strong emphasis on React. My Master of
+              Information Technology from Charles Sturt University equipped me
+              with solid IT fundamentals and essential software development
+              skills. I sought practical experience and completed the Web
+              Development Professional Year at QIBA, immersing myself in the
+              Australian industry and enhancing my skills and network, which
+              further fueled my desire to build impactful solutions. To become a
+              well-rounded developer, I started the intensive Job Ready Program
+              at Dented Code Academy. This program provided comprehensive
+              knowledge in planning, managing, and deploying complex projects
+              using JavaScript, React.js, MongoDB, Node.js, and Express.js. My
+              Bachelor of Computer Engineering from Pokhara University
+              established a strong base in computer science fundamentals.
+              Through this evolving journey, I am now eager to contribute my
+              growing skills to innovative web development projects.
             </p>
             <h3>Toowoomba, Australia</h3>
             <h3>Interest</h3>
