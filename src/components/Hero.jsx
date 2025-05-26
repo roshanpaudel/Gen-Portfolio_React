@@ -1,7 +1,6 @@
 import React from "react";
 import roshan from "../assets/Roshan.png";
 
-
 export const Hero = () => {
   return (
     <>
@@ -15,7 +14,10 @@ export const Hero = () => {
             </p>
 
             <h3 style={{ letterSpacing: "3.6px" }}>Full Stack Developer</h3>
-            <p>I love coding and tech related stuff</p>
+            <p>
+              Code is my language, tech is my playground—I build, break, and
+              learn something new every day.
+            </p>
             <a href="">
               <button>
                 Download CV <i className="fa-solid fa-download"></i>
