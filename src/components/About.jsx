@@ -15,14 +15,17 @@ export const About = () => {
           <div className="my-details flex">
             <h1>Roshan Paudel</h1>
             <p>
-              I’m a passionate web developer focused on creating efficient,
-              user-friendly applications, especially with React. I hold a Master
-              of IT from Charles Sturt University and a Bachelor's in Computer
-              Engineering from Pokhara University. My hands-on skills were
-              sharpened through the Web Development Professional Year at QIBA
-              and the Job Ready Program at Dented Code Academy, where I worked
-              with JavaScript, React, MongoDB, Node.js, and Express. I'm now
-              ready to contribute to innovative and impactful web projects.
+              I’m a passionate full-stack web developer specializing in the
+              **MERN stack**—**MongoDB, Express.js, React.js, and Node.js**—with
+              a focus on building efficient, user-friendly, and scalable web
+              applications. I hold a Master of Information Technology from
+              Charles Sturt University and a Bachelor's in Computer Engineering
+              from Pokhara University. My practical experience was further
+              enhanced through the Web Development Professional Year at QIBA and
+              the Job Ready Program at Dented Code Academy, where I worked on
+              real-world projects involving front-end interfaces, RESTful APIs,
+              and database integration. I’m now eager to contribute my skills to
+              innovative and impactful web development projects.
             </p>
             <h3>Toowoomba, Australia</h3>
             <h3>Interest</h3>
