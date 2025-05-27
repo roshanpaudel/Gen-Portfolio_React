@@ -26,12 +26,13 @@ export const About = () => {
               database integration. I’m now eager to contribute my skills to
               innovative and impactful web development projects.
             </p>
-            <h3>Toowoomba, Australia</h3>
-            <h3>Interest</h3>
+            <h3>Toowoomba City, Australia</h3>
+            <h3>Interests</h3>
             <div className="interest flex">
               <span>Coding</span>
               <span>Football</span>
               <span>Scifi movies</span>
+              <span>Future Tech</span>
             </div>
           </div>
         </div>
