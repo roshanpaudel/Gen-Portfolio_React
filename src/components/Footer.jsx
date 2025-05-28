@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Footer = () => {
+export const Footer = ({ scrollYposition }) => {
   return (
     <>
       <div className="footer flex-center">
@@ -45,6 +45,15 @@ export const Footer = () => {
           <p>&copy; All rights reserved. Made by Roshan 🤘🏽</p>
         </div>
       </div>
+
+      {/* <!-- go UP --> */}
+      {scrollYposition > 800 && (
+        <div className="go-up">
+          <a className="flex-center" href="#home">
+            <i className="fa-solid fa-chevron-up"></i>
+          </a>
+        </div>
+      )}
     </>
   );
 };

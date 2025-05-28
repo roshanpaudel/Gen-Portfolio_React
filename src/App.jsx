@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
 import { NavBar } from "./components/NavBar";
@@ -10,8 +10,18 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [scrollYposition, setScrollY] = useState(0);
+  const handleScrollY = (e) => {
+    setScrollY(window.scrollY);
+  };
+  useEffect(() => {
+    //Add event
+    window.addEventListener("scroll", handleScrollY);
+    //cleanup event
+    return () => {
+      window.removeEventListener("scroll", handleScrollY);
+    };
+  });
   return (
     <>
       <input type="checkbox" id="darkmode" />
@@ -40,13 +50,7 @@ function App() {
 
         <Contact />
         {/* <!-- footer  --> */}
-        <Footer />
-        {/* <!-- go UP --> */}
-        <div className="go-up">
-          <a className="flex-center" href="#home">
-            <i className="fa-solid fa-chevron-up"></i>
-          </a>
-        </div>
+        <Footer scrollYposition={scrollYposition} />
       </div>
     </>
   );
