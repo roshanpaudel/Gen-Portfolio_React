@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import roshan from "../assets/Roshan.png";
 import { Title } from "./Title";
 
 export const About = () => {
+  const [scrollYposition, setScrollY] = useState(0);
+  const handleScrollY = (e) => {
+    console.log(e);
+  };
+  useEffect(() => {
+    //Add event
+    window.addEventListener("scroll", handleScrollY);
+    //cleanup event
+    return () => {
+      window.removeEventListener("scroll", handleScrollY);
+    };
+  });
   return (
     <>
       <div className="about-container" id="about">
