@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [scrollYposition, setScrollY] = useState(0);
@@ -32,24 +33,14 @@ function App() {
         </label>
         {/* <!-- navbar --> */}
         <NavBar />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
 
-        <div className="page-container">
-          <Hero />
-
-          {/* <!-- skills  --> */}
-          <Skills />
-
-          {/* <!-- my-projects  --> */}
-          <Projects />
-        </div>
-
-        {/* <!-- about-me  --> */}
-        <About />
-
-        {/* <!-- contact  --> */}
-
-        <Contact />
-        {/* <!-- footer  --> */}
         <Footer scrollYposition={scrollYposition} />
       </div>
     </>
