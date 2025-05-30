@@ -3,6 +3,7 @@ import glideShift from "../assets/GlideShift.jpg";
 import hikeCo from "../assets/HikeCo.jpg";
 import { Title } from "./Title";
 import { Card } from "./Card";
+import { Layout } from "./Layout";
 
 export const Projects = () => {
   const projects = [
@@ -22,7 +23,7 @@ export const Projects = () => {
     },
   ];
   return (
-    <>
+    <Layout>
       <div className="projects container" id="projects">
         <Title title="My Projects" />
         <div className="grid my-projects">
@@ -31,6 +32,6 @@ export const Projects = () => {
           ))}
         </div>
       </div>
-    </>
+    </Layout>
   );
 };

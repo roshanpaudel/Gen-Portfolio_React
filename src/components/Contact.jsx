@@ -1,9 +1,10 @@
 import React from "react";
 import { Title } from "./Title";
+import { Layout } from "./Layout";
 
 export const Contact = () => {
   return (
-    <>
+    <Layout>
       <div className="contact flex-center" id="contact">
         <Title title="Contact me" />
         <div className="contact-links">
@@ -28,6 +29,6 @@ export const Contact = () => {
           </div>
         </form>
       </div>
-    </>
+    </Layout>
   );
 };
