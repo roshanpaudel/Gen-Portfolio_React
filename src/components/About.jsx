@@ -1,10 +1,10 @@
 import roshan from "../assets/Roshan.png";
-import { Layout } from "./Layout";
 import { Title } from "./Title";
 
 export const About = () => {
+  
   return (
-    <Layout>
+    <>
       <div className="about-container" id="about">
         <Title title="About me" />
 
@@ -37,6 +37,6 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
 };

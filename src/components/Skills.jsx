@@ -1,10 +1,9 @@
 import React from "react";
 import { Title } from "./Title";
-import { Layout } from "./Layout";
 
 export const Skills = () => {
   return (
-    <Layout>
+    <>
       <section id="skills">
         <Title title="Skills" />
         <div className="skill-icons flex-center container">
@@ -30,6 +29,6 @@ export const Skills = () => {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 };

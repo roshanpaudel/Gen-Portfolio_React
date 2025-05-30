@@ -1,10 +1,9 @@
 import React from "react";
 import roshan from "../assets/Roshan.png";
-import { Layout } from "./Layout";
 
 export const Hero = () => {
   return (
-    <Layout>
+    <>
       {/* <!-- hero  --> */}
       <section id="home">
         <div className="hero grid container">
@@ -57,6 +56,6 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
 };

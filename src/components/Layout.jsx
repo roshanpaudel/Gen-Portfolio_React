@@ -2,8 +2,9 @@ import React from "react";
 import { NavBar } from "./NavBar";
 import { Footer } from "./Footer";
 import { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
 
-export const Layout = ({ children }) => {
+export const Layout = () => {
   const [scrollYposition, setScrollY] = useState(0);
   const handleScrollY = (e) => {
     setScrollY(window.scrollY);
@@ -27,7 +28,9 @@ export const Layout = ({ children }) => {
         {/* <!-- navbar --> */}
         <NavBar />
 
-        <main className="main">{children}</main>
+        <main className="main">
+          <Outlet />
+        </main>
 
         <Footer scrollYposition={scrollYposition} />
       </div>
