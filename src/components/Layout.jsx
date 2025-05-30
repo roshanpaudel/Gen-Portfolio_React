@@ -28,7 +28,7 @@ export const Layout = () => {
         {/* <!-- navbar --> */}
         <NavBar />
 
-        <main className="main">
+        <main className="main" style={{ minHeight: "65vh" }}>
           <Outlet />
         </main>
 
