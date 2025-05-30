@@ -3,7 +3,7 @@ import { NavBar } from "./NavBar";
 import { Footer } from "./Footer";
 import { useEffect, useState } from "react";
 
-export const Layout = () => {
+export const Layout = ({ children }) => {
   const [scrollYposition, setScrollY] = useState(0);
   const handleScrollY = (e) => {
     setScrollY(window.scrollY);
@@ -27,8 +27,7 @@ export const Layout = () => {
         {/* <!-- navbar --> */}
         <NavBar />
 
-        {/* Dynamic page contents will be within main class */}
-        <main className="main"></main>
+        <main className="main">{children}</main>
 
         <Footer scrollYposition={scrollYposition} />
       </div>
